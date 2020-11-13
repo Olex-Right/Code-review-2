@@ -1,76 +1,81 @@
-@import url('../css/_zero.css') ;
+@import url("../css/_zero.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-body{
-    font-family: 'Manrope', sans-serif;
+body {
+  font-family: "Manrope", sans-serif;
 }
-.container{
-    width: 77%;
-    margin: auto;
-    max-width: 1160px;
+.container {
+  width: 77%;
+  margin: auto;
+  max-width: 1160px;
 }
-h1, h2, h3, h4, h5, h6{
-    font-weight: 800;
-    color: #18191F;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  color: #18191f;
 }
-h1{
-    font-size: 52px;
-    line-height: 120%;
+h1 {
+  font-size: 52px;
+  line-height: 120%;
 }
-h2{
-    font-size: 52px;
-    line-height: 123%;
+h2 {
+  font-size: 52px;
+  line-height: 123%;
 }
-h3{
-    font-size: 40px;
-    line-height: 135%;
+h3 {
+  font-size: 40px;
+  line-height: 135%;
 }
-h4{
-    font-size: 28px;
-    line-height: 140%;
+h4 {
+  font-size: 28px;
+  line-height: 140%;
 }
 
-p{
-    font-size: 18px;
-    line-height: 160%;
-    color: #18191F;
+p {
+  font-size: 18px;
+  line-height: 160%;
+  color: #18191f;
 }
-.btn{
-    display: flex;
-    position: relative;
+.btn {
+  display: flex;
+  position: relative;
 
-    text-align: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #fff;
-    
-    width: fit-content;
-    height: 52px;
-    overflow: hidden;
-    padding: 0 24px;
-    background: #EE464C;
-    border-radius: 8px;
-}
-.btn img{
-    display: none;
-}
-.btn-load{
-    color: transparent;
-}
-.btn-load img{
-    display: block;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
 
-    position: absolute;
-    left: calc(50% - 30px);
-
-    width: 60px;
+  width: fit-content;
+  height: 52px;
+  overflow: hidden;
+  padding: 0 24px;
+  background: #ee464c;
+  border-radius: 8px;
 }
-.btn-input{
-    height: 50px;
-    font-family: 'Inter', sans-serif;
-    background: #EE464C;
+.btn img {
+  display: none;
+}
+.btn-load {
+  color: transparent;
+}
+.btn-load img {
+  display: block;
+
+  position: absolute;
+  left: calc(50% - 30px);
+
+  width: 60px;
+}
+.btn-input {
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  background: #ee464c;
 }
